@@ -8,3 +8,12 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+ .sign_up{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sign_up > *{
+    width: 300px;
+}
